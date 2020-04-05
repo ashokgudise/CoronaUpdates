@@ -1,0 +1,8 @@
+<app-event></app-event>
+Events here:
+<ul>
+<li *ngFor="let myevent of eventInfo$ | async">
+    <h2>{{myevent.id}}</h2>
+    <p> {{myevent.date}} </p>
+</li>
+</ul>
